@@ -1,0 +1,39 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background ="https://cdn5.vectorstock.com/i/1000x1000/41/54/black-dotted-pattern-on-white-background-vector-22454154.jpg">
+  <center>
+    <h1 class="btn btn-warning heading">AI OBJECT FINDER</h1>
+    <br><br>
+    <label>OBJECT NAME: </label>
+    <br>
+    <input id="area_tell">
+    <br><br>
+    <h3 id = "number_of_object" class="btn btn-warning"></h3>
+    <br><br>
+    <h3 id="status" class="btn btn-danger"></h3>
+    <br><br>
+    <h3 id="object_status" class="btn btn-danger"></h3>
+    <br><br>
+    <button onclick="start()" class="btn btn-success" id = "start">START</button>
+    <br><br>
+  </center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
